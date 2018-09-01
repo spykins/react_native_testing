@@ -4,6 +4,6 @@ describe('Example', () => {
   });
 
   it('should show the welcome message', async () => {
-      await expect(element(by.id("welcome"))).toBeVisible();
+    await expect(element(by.id('welcome'))).toBeVisible();
   });
-})
+});
